@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PENGUIN Website</title>
+  <style>
+    /* 全局样式 */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      overflow-x: hidden;
+      color: #6633ff; /* 浅紫色 */
+      background-color: black; /* 黑色背景 */
+      text-align: center;
+    }
+
+    /* 导航栏 */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      box-shadow: rgba(66, 51, 255, 0) 0px 1px; /* 浅紫色边框 */
+    }
+
+    .navbar a {
+      color: #6633ff;
+      text-decoration: none;
+      padding: 10px 15px;
+      border: 2px solid #6633ff;
+      border-radius: 5px;
+    }
+
+    /* 标题 */
+    .title {
+      margin-top: 20px;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    /* 主内容区域 */
+    .content {
+      position: relative;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .content h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+
+    .content p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    /* 下方箭头 */
+    .arrow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .arrow a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #6633ff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .arrow span {
+      font-size: 50px;
+      color: #6633ff;
+    }
+
+
+  </style>
+</head>
+<body>
+  <!-- 导航栏 -->
+  <div class="navbar">
+    <a href="#">Home</a>
+    <h1 class="title">Hello Birders</h1>
+    <a href="#">About us</a>
+  </div>
+  
+  <video autoplay muted loop id="video-background">
+    <source src="f81x7-jmyii.mp4" type="video/mp4">
+    <!-- 可添加其他格式的视频源作为备选 -->
+</video>
+<iframe scrolling="no" class="iframe-style" seamless="seamless" 
+src="https://eveoc12.github.io/table/" 
+height="400" width="100%" title="Embedded table">
+</iframe>
+  <!-- 主内容区域 -->
+  <div class="content">
+    
+    <h2>Welcome to the world of birders!</h2>
+    <p>From the big data related to birdwatchers in Chongming, we sketch the portrait of contemporary birdwatchers in Chongming.</p>
+    <p>Please follow our data story step by step to get closer to bird watching, feel the beauty, and create a beautiful picture of human-bird coexistence.</p>
+    <div class="arrow">
+      <a href="#">
+        <span>&#8595;</span>
+        Explore
+      </a>
+    </div>
+ 
+  </div>
+</body>
+</html>
